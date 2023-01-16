@@ -1,0 +1,31 @@
+{
+  "name": "gittest",
+  "version": "1.0.0",
+  "description": "Assignmnet",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node -v && export TEST=true &&nyc --check-coverage=true --reporter=lcov --reporter=text mocha --timeout 10000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NehaGaikwadN/gitInitial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NehaGaikwadN/gitInitial/issues"
+  },
+  "homepage": "https://github.com/NehaGaikwadN/gitInitial#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "mongodb": "^4.13.0",
+    "nyc": "^15.1.0",
+    "pug": "^3.0.2",
+    "redis": "^4.5.1"
+  }
+}
